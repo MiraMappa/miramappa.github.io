@@ -1,0 +1,46 @@
+media:
+  input: assets/img/projects
+  output: /assets/img/projects
+
+content:
+  - name: projects
+    label: Projects (EN)
+    type: collection
+    path: _projects
+    format: md
+    fields:
+      - name: title
+        label: Map Title
+        type: string
+      - name: download_url
+        label: Download Link
+        type: string
+      - name: body
+        label: Description
+        type: rich-text
+
+  - name: ru_projects
+    label: Projects (RU)
+    type: collection
+    path: _ru_projects
+    format: md
+    fields:
+      - name: title
+        label: Map Title
+        type: string
+      - name: body
+        label: Description
+        type: rich-text
+
+  - name: members
+    label: Team Members
+    type: collection
+    path: _members
+    format: md
+    fields:
+      - name: name
+        label: Member Name
+        type: string
+      - name: role
+        label: Role
+        type: string

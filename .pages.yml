@@ -9,10 +9,6 @@ content:
     path: _projects
     format: yaml-frontmatter
     fields:
-      - name: layout
-        label: Page Layout
-        type: string
-        default: project
       - name: title
         label: Map Title
         type: string
@@ -40,9 +36,24 @@ content:
       - name: update_date
         label: Last Updated
         type: date
-      - name: tags
+      - name: project_tags
         label: Tags
         type: string
+      - name: media
+        type: block
+        list: true
+        blocks:
+          - name: asset
+            label: Media Asset
+            fields:
+              - name: type
+                label: Type
+              - name: src
+                label: Link
+      - name: layout
+        label: Page Layout
+        type: string
+        default: project
       - name: body
         label: Description
         type: rich-text

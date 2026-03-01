@@ -19,6 +19,9 @@ content:
       - name: description
         label: Short Description
         type: string
+      - name: authors
+        label: Author(s)
+        type: string
       - name: download_url
         label: Download Link
         type: string
@@ -81,6 +84,9 @@ content:
         type: string
       - name: description
         label: Короткое описание
+        type: string
+      - name: authors
+        label: Автор(ы)
         type: string
       - name: download_url
         label: Ссылка на скачивание

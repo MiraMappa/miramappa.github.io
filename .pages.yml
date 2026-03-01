@@ -24,6 +24,9 @@ content:
       - name: languages
         label: Language(s)
         type: string
+      - name: mc_version
+        label: Minecraft Version
+        type: string
       - name: players
         label: Player Count
         type: string

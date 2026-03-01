@@ -8,7 +8,7 @@ year: 2023
 languages: English
 mc_version: 1.20.4
 players: 1-3
-mods: No
+mods: "No"
 release_date: 2023-06-02
 update_date: 2023-12-25
 project_tags: Horror, Arcade

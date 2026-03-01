@@ -1,4 +1,5 @@
 ---
+page_name: no-hibernation
 title: No Hibernation
 description: Survive until sunrise in a house and defend from werewolves
 download_url: https://www.planetminecraft.com/project/no-hibernation/

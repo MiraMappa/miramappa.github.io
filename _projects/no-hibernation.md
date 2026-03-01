@@ -35,42 +35,49 @@ layout: project
 This project has been discontinued and will remain in Beta state. However, the latest build is polished enough for a great experience
 {: .note .red}
 
+
 # Terrifying Experience
 {: .align-center}
 
-![No Hibernation is a horror map based on trial and error gameplay. Survive until dawn and don't let anything in!](/assets/images/projects/no-hibernation/description/1.png)
+<div class="img-block left" markdown="1">
+![Test](/assets/images/projects/no-hibernation/description/1.png)
 
-No Hibernation is a horror map based on trial and error gameplay. Survive until dawn and don't let anything in!
-{: .img-block .left}
+No Hibernation is a horror map based on trial and error   gameplay. Survive until dawn and don't let anything in!
+</div>
 
 # Incredible Replayability
 {: .align-center}
 
+<div class="img-block right" markdown="1">
 Ranks and difficulty modifiers will make you keep playing!
 
-![Ranks and difficulty modifiers will make you keep playing!](/assets/images/projects/no-hibernation/description/2.png)
-{: .img-block .right}
+![Test](/assets/images/projects/no-hibernation/description/2.png)
+</div>
 
 # Challenging Difficulty
 {: .align-center}
 
-![Play on Easy, Normal or Hard difficulty depending on your experience and try DEATH WISH of you're brave enough!](/assets/images/projects/no-hibernation/description/3.png)
+<div class="img-block left" markdown="1">
+![Test](/assets/images/projects/no-hibernation/description/3.png)
 
 Play on Easy, Normal or Hard difficulty depending on your experience and try DEATH WISH of you're brave enough!
-{: .img-block .left}
+</div>
 
 # Multiplayer Compatible
 {: .align-center}
 
-Play No Hibernation alone or with up to 3 people together! (More players is possible but will make the gameplay too boring)
+<div class="img-block right" markdown="1">
+Play No Hibernation alone or with up to 3 people together!
+<small>(More players is possible but will make the gameplay too boring)</small>
 
-![Play No Hibernation alone or with up to 3 people together! (More players is possible but will make the gameplay too boring)](/assets/images/projects/no-hibernation/description/4.png)
-{: .img-block .right}
+![Test](/assets/images/projects/no-hibernation/description/4.png)
+</div>
 
 # Ranks
 {: .align-center}
 
-![Try your best and get the best rank on the map!](/assets/images/projects/no-hibernation/description/5.png)
+<div class="img-block left" markdown="1">
+![Test](/assets/images/projects/no-hibernation/description/5.png)
 
 Try your best and get the best rank on the map!
-{: .img-block .left}
+</div>

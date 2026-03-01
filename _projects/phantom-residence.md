@@ -20,4 +20,4 @@ media:
     src: /assets/images/projects/phantom-residence/backcover.png
 layout: project
 ---
-!\[Description\](/assets/images/projects/phantom-residence/description.png)
+![Description](/assets/images/projects/phantom-residence/description.png)

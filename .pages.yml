@@ -40,6 +40,7 @@ content:
         label: Tags
         type: string
       - name: media
+        label: Media
         type: block
         list: true
         blocks:
@@ -48,8 +49,10 @@ content:
             fields:
               - name: type
                 label: Type
+                type: string
               - name: src
                 label: Link
+                type: string
       - name: layout
         label: Page Layout
         type: string

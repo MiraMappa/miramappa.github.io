@@ -20,7 +20,7 @@ content:
         type: string
       - name: year
         label: Release Year
-        type: string
+        type: number
       - name: languages
         label: Language(s)
         type: string

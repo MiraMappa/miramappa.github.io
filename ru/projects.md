@@ -1,6 +1,7 @@
 ---
 layout: main_ru
 title: Проекты - MiraMappa
+description: Все проекты MiraMappa на одной странице
 additional_css: projects
 ---
 <div class="header">

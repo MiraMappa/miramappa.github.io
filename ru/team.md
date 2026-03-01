@@ -1,6 +1,7 @@
 ---
 layout: main_ru
 title: Команда - MiraMappa
+description: Команда, стоящая за проектами MiraMappa
 additional_css: team
 ---
 <div class="header">

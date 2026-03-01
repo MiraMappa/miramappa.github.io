@@ -1,6 +1,7 @@
 ---
 layout: main_ru
 title: Главная - MiraMappa
+description: MiraMappa — команда мапмейкеров Minecraft, сконцентрированных на качестве.
 additional_css: home
 ---
 <section class="hero">

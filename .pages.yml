@@ -56,7 +56,9 @@ content:
             fields:
               - name: type
                 label: Type
-                type: string
+                type: select
+                options:
+                  values: [ image, video ]
               - name: src
                 label: Link
                 type: string
@@ -117,7 +119,9 @@ content:
             fields:
               - name: type
                 label: Type
-                type: string
+                type: select
+                options:
+                  values: [ image, video ]
               - name: src
                 label: Link
                 type: string

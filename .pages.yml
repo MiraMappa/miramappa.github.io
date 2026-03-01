@@ -8,8 +8,11 @@ content:
     type: collection
     path: _projects
     format: yaml-frontmatter
-    filename: "{fields.title}.md"
+    filename: "{fields.page_name}.md"
     fields:
+      - name: page_name
+        label: Page Name
+        type: string
       - name: title
         label: Map Title
         type: string

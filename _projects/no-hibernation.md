@@ -1,8 +1,10 @@
 ---
 title: No Hibernation
+description: Survive until sunrise in a house and defend from werewolves
 download_url: https://www.planetminecraft.com/project/no-hibernation/
 year: 2023
 languages: English
+mc_version: 1.20.4
 players: 1-3
 mods: No
 release_date: 2023-06-02

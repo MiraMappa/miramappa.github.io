@@ -1,6 +1,6 @@
 media:
-  input: assets/img/projects
-  output: /assets/img/projects
+  input: assets/images
+  output: /assets/images
 
 content:
   - name: projects
@@ -12,6 +12,7 @@ content:
       - name: layout
         label: Page Layout
         type: string
+        default: project
       - name: title
         label: Map Title
         type: string
@@ -39,6 +40,12 @@ content:
       - name: update_date
         label: Last Updated
         type: date
+      - name: tags
+        label: Tags
+        type: list
+        field:
+          - type: string
+            label: Tag Name
       - name: body
         label: Description
         type: rich-text
@@ -47,7 +54,7 @@ content:
     label: Projects (RU)
     type: collection
     path: _ru_projects
-    format: md
+    format: yaml-frontmatter
     fields:
       - name: title
         label: Map Title
@@ -60,7 +67,7 @@ content:
     label: Team Members
     type: collection
     path: _members
-    format: md
+    format: yaml-frontmatter
     fields:
       - name: name
         label: Member Name

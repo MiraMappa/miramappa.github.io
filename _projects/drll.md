@@ -1,10 +1,10 @@
 ---
-layout: project
 title: "DELTARUNE: Lightners Live"
 year: 2023
-date: 2023-08-27
-mc_version: 1.20.1
-description: "DESCRIPTION"
+media:
+  - _block: asset
+    type: test
+    src: aaaa
+layout: project
 ---
-
 Lorem Ipsum

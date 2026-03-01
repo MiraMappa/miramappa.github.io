@@ -79,7 +79,8 @@
                         </div>
                     </div>
                     <div class="project-tags">
-                        {% for tag in page.tags %}
+                        {% assign tag_list = page.project_tags | split: ", " %}
+                        {% for tag in tag_list %}
                         <div class="project-tag">{{tag}}</div>
                         {% endfor %}
                     </div>

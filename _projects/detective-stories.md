@@ -5,8 +5,6 @@ decription: DESCRIPTION
 year: "2025"
 languages: English, Russian, Chinese
 players: "1"
-tags: |-
-  "Tag 1"
-  "Tag 2"
+tags: Tag 1, Tag 2
 ---
 Test

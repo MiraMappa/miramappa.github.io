@@ -10,9 +10,7 @@ mc_version: 1.20.4
 mods: "No"
 release_date: 2023-06-02
 update_date: 2023-12-25
-tags:
-    - Horror
-    - Arcade
+project_tags: Horror, Arcade
 authors: XeKyT, Balcom
 media:
     - type: video

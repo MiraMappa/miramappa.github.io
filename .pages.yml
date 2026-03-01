@@ -9,12 +9,36 @@ content:
     path: _projects
     format: md
     fields:
+      - name: layout
+        label: Page Layout
+        type: string
       - name: title
         label: Map Title
+        type: string
+      - name: decription
+        label: Short Description
         type: string
       - name: download_url
         label: Download Link
         type: string
+      - name: year
+        label: Release Year
+        type: string
+      - name: languages
+        label: Language(s)
+        type: string
+      - name: players
+        label: Player Count
+        type: string
+      - name: mods
+        label: Mods Required
+        type: string
+      - name: release_date
+        label: Release Date
+        type: date
+      - name: update_date
+        label: Last Updated
+        type: date
       - name: body
         label: Description
         type: rich-text

@@ -1,0 +1,12 @@
+title: MiraMappa
+include: [404.md]
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  ru_projects:
+    output: true
+    permalink: /ru/projects/:name
+  members:
+    output: true
+    permalink: /team/:name

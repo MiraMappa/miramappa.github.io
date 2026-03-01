@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}} - MiraMappa</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/project.css">
+    <script src="/assets/js/header.js" defer></script>
+    <script src="/assets/js/project-page.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="/"><div class="header-logo"></div></a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/projects">Projects</a>
+            <a href="/team">Team</a>
+        </nav>
+        <div class="button-container">
+            <div class="button" id="lang-button">
+                <div class="dropdown-list">
+                    <a class="dropdown-item" id="lang-en">English</a>
+                    <a class="dropdown-item" id="lang-ru">Русский</a>
+                </div>
+            </div>
+            <div class="button" id="burger-button"></div>
+        </div>
+    </header>
+    <div class="burger-menu">
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/team">Team</a>
+    </div>
+    <div class="main-container">
+        <h1 class="project-title">{{page.title}}</h1>
+        <div class="project-container">
+            <div class="project-main">
+                <div class="gallery">
+                    <div class="gallery-big" id="gallery-big">
+                    </div>
+                    <div class="gallery-list" id="gallery-list">
+                        {% for asset in page.media %}
+                        <img class="gallery-asset gallery-{{asset.type}}" data-src="{{asset.src}}">
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="project-content">{{content}}</div>
+            </div>
+            <div class="project-sidebar">
+                <div class="sidebar-content">
+                    <img src="/assets/images{{page.id}}/thumbnail.png">
+                    <div class="project-description">{{page.description}}</div>
+                    <div class="project-summary">
+                        <div class="summary-tag">
+                            <div class="key">Languages:</div>
+                            <div class="value">{{page.languages}}</div>
+                        </div>
+                        <div class="summary-tag">
+                            <div class="key">Players:</div>
+                            <div class="value">{{page.players}}</div>
+                        </div>
+                        <div class="summary-tag">
+                            <div class="key">Minecraft Version:</div>
+                            <div class="value">{{page.mc_version}}</div>
+                        </div>
+                        <div class="summary-tag">
+                            <div class="key">Mods required:</div>
+                            <div class="value">{{page.mods}}</div>
+                        </div>
+                        <div class="summary-tag">
+                            <div class="key">Release date:</div>
+                            <div class="value">{{page.release_date | date: "%B %d %Y"}}</div>
+                        </div>
+                        <div class="summary-tag">
+                            <div class="key">Author(s):</div>
+                            <div class="value"><a href="/team/">{{page.authors}}</a></div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        {% for tag in page.tags %}
+                        <div class="project-tag">{{tag}}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <button class="accent">Download</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-row">
+            <img src="/assets/images/miramappa-logo-monochrome.png" height="30px" width="144px">
+            <div>Hosted via GitHub Pages. Not associated with Minecraft, Mojang AB or Microsoft. Not an official Minecraft partner/product.</div>
+        </div>
+        <div class="footer-row">
+            <a href="https://www.planetminecraft.com/group/miramappa/">Planet Minecraft</a>
+            <a href="https://discord.gg/YQSpybSJAj">Discord Server</a>
+            <a href="https://github.com/MiraMappa">GitHub</a>
+            <p>miramappa@proton.me</p>
+        </div>
+    </footer>
+</body>
+</html>

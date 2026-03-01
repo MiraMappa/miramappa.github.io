@@ -1,0 +1,142 @@
+.header {
+    height: 200px;
+    width: 100%;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 calc(50% - 620px);;
+    user-select: none;
+    h1 {
+        margin: auto 0 0 0;
+        font-size: 96px;
+    }
+}
+
+.members-grid {
+    margin: 60px 0 30px;
+    padding: 0 calc(50% - 620px);
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px;
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+}
+.member {
+    width: 400px;
+    /* height: 380px; */
+    border: 1px solid var(--outline-color);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: background-color 0.1s ease-in;
+}
+.member-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    img {
+        height: 100px;
+        width: 100px;
+        border: 1px solid var(--outline-color);
+        border-radius: 50%;
+    }
+}
+.member-text {
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h3 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    p {
+        margin: 0;
+        opacity: 60%;
+    }
+}
+.member-links {
+    display: flex;
+    margin-bottom: 10px;
+    height: 50px;
+    a {
+        height: 50px;
+        width: 50px;
+        border: 1px solid var(--outline-color);
+        border-radius: 50%;
+        color: rgba(255,255,255,0.6);
+        padding: 6px;
+        box-sizing: border-box;
+        margin-right: 5px;
+        transition: background-color 0.1s ease-in;
+        cursor: pointer;
+        &:hover {
+            background-color: var(--outline-color);
+        }
+        &.youtube {
+            background-image: url("/assets/images/team/link-icons/youtube.png");
+            background-size: 40px;
+            background-position-x: 4px;
+            background-position-y: 7px;
+            background-repeat: no-repeat;
+        }
+        &.boosty {
+            background-image: url("/assets/images/team/link-icons/boosty.png");
+            background-size: 22px;
+            background-position-x: 14px;
+            background-position-y: 10px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+.team-description {
+    width: 800px;
+    margin: 0 auto 60px;
+    h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .team-email {
+        width: 200px;
+        border: 1px solid var(--outline-color);
+        border-radius: var(--border-radius);
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header {
+        padding: 0 calc(50% - 405px);;
+    }
+    .members-grid {
+        grid-template-columns: repeat(2, 400px);
+        padding: 0 calc(50% - 405px);
+    }
+}
+
+@media (max-width: 850px) {
+    .header {
+        padding: 0 calc(50% - 200px);;
+    }
+    .members-grid {
+        grid-template-columns: 400px;
+        padding: 0 calc(50% - 200px);
+    }
+    .team-description {
+        width: calc(100% - 40px);
+    }
+}

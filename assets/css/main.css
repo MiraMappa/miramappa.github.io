@@ -1,0 +1,273 @@
+:root {
+  --bg-color: #000000;
+  --bg-transparent: #000000DD;
+  --outline-color: #ffffff33;
+  --primary-color: #ffffff;
+  --primary-color-darker: #dadada;
+  --primary-color-dark: #a5a5a5;
+  --accent-color-lighter: #9a2eff;
+  --accent-color: #8300ff;
+  --accent-color-darker: #4600be;
+  --border-radius: 10px;
+}
+::selection {
+  color: #000000; 
+  background: #ffffff; 
+}
+::-moz-selection {
+  color: #000000; 
+  background: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    * {
+        font-family: "Inter", sans-serif;
+    }
+}
+
+.main-container {
+    position: relative;
+    min-height: calc(100vh - 220px);
+}
+
+button {
+    height: 40px;
+    width: 160px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.1s ease-in;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--primary-color-darker);
+    }
+    &.accent {
+        background-color: var(--accent-color);
+        color: var(--primary-color);
+        &:hover {
+            background-color: var(--accent-color-lighter);
+        }
+    }
+}
+
+dimm {
+    opacity: 60%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    background-color: var(--bg-transparent);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid var(--outline-color);
+    padding: 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    nav {
+        height: 100%;
+        width: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 600;
+        a {
+            color: var(--primary-color);
+            margin: auto;
+            transition: color 0.1s ease-in;
+            text-decoration: none;
+            &:hover {
+                color: var(--accent-color);
+            }
+        }
+    }
+    .button-container {
+        width: 150px;
+        display: flex;
+        justify-content: right;
+        gap: 10px;
+    }
+    #burger-button {
+        display: none;
+    }
+    .button {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--outline-color);
+        border-radius: var(--border-radius);
+        transition: background-color 0.1s ease-in;
+        cursor: pointer;
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        &:hover:not(:has(.dropdown-list:hover)) {
+            background-color: var(--outline-color);
+        }
+        &:active:not(:has(.dropdown-list:hover)) {
+            background-color: var(--bg-color);
+        }
+        &#lang-button {
+            background-image: url("/assets/images/lang-globe.svg");
+        }
+        &#burger-button {
+            background-image: url("/assets/images/burger.svg");
+        }
+        .dropdown-list {
+            z-index: 101;
+            position: absolute;
+            top: 45px;
+            right: 0px;
+            width: 100px;
+            background-color: var(--bg-transparent);
+            border: 1px solid var(--outline-color);
+            border-radius: var(--border-radius);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            &.active {
+                display: flex;
+            }
+            a {
+                padding: 10px;
+                text-decoration: none;
+                user-select: none;
+                cursor: pointer;
+                transition: background-color 0.1s ease-in;
+                &:hover {
+                    background-color: var(--outline-color);
+                }
+            }
+        }
+    }
+}
+.burger-menu {
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-transparent);
+    border-bottom: 1px solid var(--outline-color);
+    backdrop-filter: blur(4px);
+    display: none;
+    flex-direction: column;
+    a {
+        padding: 15px 30px;
+        color: var(--primary-color);
+        font-weight: 600;
+        text-align: right;
+        text-decoration: none;
+        user-select: none;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in;
+        &:active {
+            background-color: var(--outline-color);
+        }
+    }
+    &.active {
+        display: flex;
+    }
+}
+.header-logo {
+    height: 100%;
+    width: 150px;
+    background-image: url("../images/miramappa-logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-lang {
+    height: 100%;
+    width: 150px;
+}
+
+footer {
+    border-top: 1px solid var(--outline-color);
+    height: 150px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer-row {
+    height: 140px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+    * {
+        margin: 0 auto;
+    }
+    div {
+        opacity: 60%;
+    }
+    a {
+        color: var(--primary-color);
+        opacity: 60%;
+        text-decoration: none;
+        transition: color 0.1s ease-in;
+        &:hover {
+            color: var(--accent-color-lighter);
+        }
+    }
+    p {
+        opacity: 60%;
+        user-select:text;
+    }
+}
+
+.text-404 {
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h1 {
+        font-size: 96px;
+    }
+    &.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+        nav {
+            display: none;
+        }
+        #burger-button {
+            display: block;
+        }
+    }
+    .text-404 {
+        h1 {
+            font-size: 48px;
+        }
+    }
+    footer {
+        height: 400px;
+        flex-direction: column;
+        padding: 30px calc(50% - 200px);
+    }
+    .footer-row {
+        margin: 30px 0;
+    }
+}

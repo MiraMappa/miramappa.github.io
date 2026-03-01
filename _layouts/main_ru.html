@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}}</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.ico">
+    <link rel="preload" as="image" href="/assets/images/hero-bg.png" fetchpriority="high">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/{{page.additional_css}}.css">
+    <script src="/assets/js/header.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="/ru/"><div class="header-logo"></div></a>
+        <nav>
+            <a href="/ru/">Главная</a>
+            <a href="/ru/projects">Проекты</a>
+            <a href="/ru/team">Команда</a>
+        </nav>
+        <div class="button-container">
+            <div class="button" id="lang-button">
+                <div class="dropdown-list">
+                    <a class="dropdown-item" id="lang-en">English</a>
+                    <a class="dropdown-item" id="lang-ru">Русский</a>
+                </div>
+            </div>
+            <div class="button" id="burger-button"></div>
+        </div>
+    </header>
+    <div class="burger-menu">
+        <a href="/ru/">Главная</a>
+        <a href="/ru/projects">Проекты</a>
+        <a href="/ru/team">Команда</a>
+    </div>
+    <div class="main-container">
+        {{content}}
+    </div>
+    <footer>
+        <div class="footer-row">
+            <img src="/assets/images/miramappa-logo-monochrome.png" height="30px" width="144px">
+            <div>Размещено при помощи GitHub Pages. Не является официальным партнёром или продуктом Minecraft, Mojang AB или Microsoft.</div>
+        </div>
+        <div class="footer-row">
+            <a target="_blank" href="https://www.planetminecraft.com/group/miramappa/">Planet Minecraft</a>
+            <a target="_blank" href="https://discord.gg/YQSpybSJAj">Сервер Discord</a>
+            <a target="_blank" href="https://github.com/MiraMappa">GitHub</a>
+            <p>miramappa@proton.me</p>
+        </div>
+    </footer>
+</body>
+</html>

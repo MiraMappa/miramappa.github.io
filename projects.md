@@ -1,0 +1,25 @@
+---
+layout: main
+title: Projects - MiraMappa
+additional_css: projects
+---
+<div class="header">
+  <h1>our projects</h1>
+</div>
+<section class="projects-grid">
+  {% assign projects_list = site.projects | sort: 'update_date' | reverse %}
+  {% for project in projects_list %}
+    <a href="{{project.id}}">
+    <div class="project">
+      <img src="/assets/images{{project.id}}/thumbnail.png" alt="{{project.title}}">
+      <div class="project-text">
+        <h3>{{project.title}}</h3>
+        <div class="project-tags">
+          <div>{{project.year}}</div> <div>{{project.mc_version}}</div>
+        </div>
+        <p>{{project.description}}</p>
+      </div>
+    </div>
+    </a>
+  {% endfor %}
+</section>

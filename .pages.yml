@@ -65,16 +65,64 @@ content:
         type: rich-text
 
   - name: ru_projects
-    label: Projects (RU)
+    label: Проекты (RU)
     type: collection
     path: _ru_projects
     format: yaml-frontmatter
     fields:
       - name: title
-        label: Map Title
+        label: Название карты
         type: string
+      - name: description
+        label: Короткое описание
+        type: string
+      - name: download_url
+        label: Ссылка на скачивание
+        type: string
+      - name: year
+        label: Год Релиза
+        type: number
+      - name: languages
+        label: Язык(и)
+        type: string
+      - name: mc_version
+        label: Версия Minecraft
+        type: string
+      - name: players
+        label: Кол-во игроков
+        type: string
+      - name: mods
+        label: Требуемые моды
+        type: string
+      - name: release_date
+        label: Дата релиза
+        type: date
+      - name: update_date
+        label: Дата последнего обновления
+        type: date
+      - name: project_tags
+        label: Теги
+        type: string
+      - name: media
+        label: Медиа
+        type: block
+        list: true
+        blocks:
+          - name: asset
+            label: Ассет Медиа
+            fields:
+              - name: type
+                label: Type
+                type: string
+              - name: src
+                label: Link
+                type: string
+      - name: layout
+        label: Шаблон страницы
+        type: string
+        default: project_ru
       - name: body
-        label: Description
+        label: Описание
         type: rich-text
 
   - name: members
@@ -84,8 +132,11 @@ content:
     format: yaml-frontmatter
     fields:
       - name: name
-        label: Member Name
+        label: Name
         type: string
-      - name: role
-        label: Role
+      - name: description
+        label: Description
+        type: string
+      - name: description_ru
+        label: Описание
         type: string

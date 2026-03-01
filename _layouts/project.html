@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{page.title}} - MiraMappa</title>
+    <meta name="description" content="{{page.description}}">
+
+    <meta property="og:url" content="https://miramappa.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.description}}">
+    <meta property="og:image" content="{{site.url}}/assets/images/projects/{{page.page_name}}/thumbnail.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="miramappa.github.io">
+    <meta property="twitter:url" content="https://miramappa.github.io/">
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{{page.description}}">
+    <meta name="twitter:image" content="{{site.url}}/assets/images/projects/{{page.page_name}}/thumbnail.png">
+
+    <meta name="theme-color" content="#8300ff">
+
     <link rel="icon" type="image/png" href="/assets/images/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/project.css">
@@ -50,7 +67,7 @@
             </div>
             <div class="project-sidebar">
                 <div class="sidebar-content">
-                    <img src="/assets/images{{page.id}}/thumbnail.png">
+                    <img src="/assets/images/projects/{{page.page_name}}/thumbnail.png">
                     <div class="project-description">{{page.description}}</div>
                     <div class="project-summary">
                         <div class="summary-tag">

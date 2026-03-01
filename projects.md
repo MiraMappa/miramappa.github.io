@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Projects - MiraMappa
+description: "All of MiraMappa's projects in one page"
 additional_css: projects
 ---
 <div class="header">

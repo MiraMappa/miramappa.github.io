@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Home - MiraMappa
+description: "MiraMappa is a team of Minecraft mapmakers focused on quality."
 additional_css: home
 ---
 <section class="hero">

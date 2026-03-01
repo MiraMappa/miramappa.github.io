@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Team - MiraMappa
+description: "Team behind MiraMappa's projects"
 additional_css: team
 ---
 <div class="header">

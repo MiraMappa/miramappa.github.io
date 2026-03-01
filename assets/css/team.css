@@ -130,7 +130,11 @@
 
 @media (max-width: 850px) {
     .header {
-        padding: 0 calc(50% - 200px);;
+        width: 80%;
+        margin: 70px auto;
+        h1 {
+            font-size: 64px;
+        }
     }
     .members-grid {
         grid-template-columns: 400px;

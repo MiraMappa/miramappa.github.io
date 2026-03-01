@@ -35,4 +35,5 @@ additional_css: team
   <p>Вы можете связаться с нами по электронной почте. Опишите свои навыки, расскажите о своем опыте и покажите ваше портфолио.</p>
   <h3>наш email:</h3>
   <div class="team-email">miramappa@proton.me</div>
+  <p style="color: #ff8080;">Внимание: письма на Proton Mail с российских почтовых сервисов (Mail.ru, Yandex и т.д.) не доставляются</p>
 </section>

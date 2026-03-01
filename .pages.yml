@@ -7,7 +7,7 @@ content:
     label: Projects (EN)
     type: collection
     path: _projects
-    format: md
+    format: yaml-frontmatter
     fields:
       - name: layout
         label: Page Layout

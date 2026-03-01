@@ -8,6 +8,7 @@ content:
     type: collection
     path: _projects
     format: yaml-frontmatter
+    filename: "{fields.title}.md"
     fields:
       - name: title
         label: Map Title

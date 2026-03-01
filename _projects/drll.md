@@ -1,4 +1,5 @@
 ---
+page_name: drll
 title: "DELTARUNE: Lightners Live"
 description: Rhythm game based on a minigame from DELTARUNE
 year: 2025

@@ -42,10 +42,6 @@ content:
         type: date
       - name: tags
         label: Tags
-        type: list
-        field:
-          - type: string
-            label: Tag Name
       - name: body
         label: Description
         type: rich-text

@@ -2,6 +2,7 @@
 page_name: phantom-residence
 title: Phantom Residence
 description: Retro PSX-themed horror map
+authors: XeKyT, VladislavvC
 download_url: https://www.planetminecraft.com/project/phantom-residence/
 year: 2024
 languages: English

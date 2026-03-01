@@ -1,79 +1,84 @@
 ---
-layout: project
-title: "No Hibernation"
-description: "Выживи до рассвета в доме и защищайся от оборотней"
+page_name: no-hibernation
+title: No Hibernation
+description: Доживите до рассвета в доме, защищаясь от оборотней
+authors: XeKyT, Balcom
+download_url: https://www.planetminecraft.com/project/no-hibernation/
 year: 2023
-languages: English
-players: 1-3
+languages: Английский
 mc_version: 1.20.4
-mods: "No"
+players: 1-3
+mods: Нет
 release_date: 2023-06-02
 update_date: 2023-12-25
-tags:
-    - Horror
-    - Arcade
-authors: XeKyT, Balcom
+project_tags: Хоррор, Аркада
 media:
-    - type: video
-      src: https://www.youtube.com/embed/GqOYX64xB74
-    - type: image
-      src: /assets/images/projects/no-hibernation/screenshots/1.webp
-    - type: image
-      src: /assets/images/projects/no-hibernation/screenshots/2.webp
-    - type: image
-      src: /assets/images/projects/no-hibernation/screenshots/3.webp
-    - type: image
-      src: /assets/images/projects/no-hibernation/screenshots/4.webp
-    - type: image
-      src: /assets/images/projects/no-hibernation/screenshots/5.webp
+  - _block: asset
+    type: video
+    src: https://www.youtube.com/embed/GqOYX64xB74
+  - _block: asset
+    type: image
+    src: /assets/images/projects/no-hibernation/screenshots/1.webp
+  - _block: asset
+    type: image
+    src: /assets/images/projects/no-hibernation/screenshots/2.webp
+  - _block: asset
+    type: image
+    src: /assets/images/projects/no-hibernation/screenshots/3.webp
+  - _block: asset
+    type: image
+    src: /assets/images/projects/no-hibernation/screenshots/4.webp
+  - _block: asset
+    type: image
+    src: /assets/images/projects/no-hibernation/screenshots/5.webp
+layout: project_ru
 ---
-
-This project has been discontinued and will remain in Beta state. However, the latest build is polished enough for a great experience
+Этот проект был заброшен и останется в Бете. Однако последняя версия достаточно отполирована для отличного опыта
 {: .note .red}
 
 
-# Terrifying Experience
+# Ужасающий опыт
 {: .align-center}
 
 <div class="img-block left" markdown="1">
 ![Test](/assets/images/projects/no-hibernation/description/1.png)
 
-No Hibernation is a horror map based on trial and error   gameplay. Survive until dawn and don't let anything in!
+No Hibernation — хоррор карта, основанная на принципе проб и ошибок. Доживите до рассвета и не впустите ничего в дом!
 </div>
 
-# Incredible Replayability
+# Невероятная реиграбельность!
 {: .align-center}
 
 <div class="img-block right" markdown="1">
-Ranks and difficulty modifiers will make you keep playing!
+Ранги и модификаторы сложности затянут вас надолго!
 
 ![Test](/assets/images/projects/no-hibernation/description/2.png)
 </div>
 
-# Challenging Difficulty
+# Серьёзное испытание
 {: .align-center}
 
 <div class="img-block left" markdown="1">
 ![Test](/assets/images/projects/no-hibernation/description/3.png)
 
-Play on Easy, Normal or Hard difficulty depending on your experience and try DEATH WISH of you're brave enough!
+Играйте на Лёгкой, Нормальной или Высокой сложности в зависимости от вашего опыта и попробуйте DEATH WISH, если вы достаточно смелый!
 </div>
 
-# Multiplayer Compatible
+# Поддерживает мультиплеер
 {: .align-center}
 
 <div class="img-block right" markdown="1">
-Play No Hibernation alone or with up to 3 people together!
-<small>(More players is possible but will make the gameplay too boring)</small>
+Играйте в No Hibernation в одиночку или вместе вплоть до 3 игроков!
+<small>(Большее количество игроков возможно, но сделает игру скучной)</small>
 
 ![Test](/assets/images/projects/no-hibernation/description/4.png)
 </div>
 
-# Ranks
+# Ранги
 {: .align-center}
 
 <div class="img-block left" markdown="1">
 ![Test](/assets/images/projects/no-hibernation/description/5.png)
 
-Try your best and get the best rank on the map!
+Испытайте себя и получите лучший ранг на карте!
 </div>

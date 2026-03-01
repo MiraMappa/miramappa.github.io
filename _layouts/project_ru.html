@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{page.title}} - MiraMappa</title>
     <link rel="icon" type="image/png" href="/assets/images/favicon.ico">
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/project.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/project.css">
     <script src="/assets/js/header.js" defer></script>
     <script src="/assets/js/project-page.js" defer></script>
 </head>
@@ -14,9 +14,9 @@
     <header>
         <a href="/"><div class="header-logo"></div></a>
         <nav>
-            <a href="/">Home</a>
-            <a href="/projects">Projects</a>
-            <a href="/team">Team</a>
+            <a href="/">Главная</a>
+            <a href="/projects">Проекты</a>
+            <a href="/team">Команда</a>
         </nav>
         <div class="button-container">
             <div class="button" id="lang-button">
@@ -29,9 +29,9 @@
         </div>
     </header>
     <div class="burger-menu">
-        <a href="/">Home</a>
-        <a href="/projects">Projects</a>
-        <a href="/team">Team</a>
+        <a href="/">Главная</a>
+        <a href="/projects">Проекты</a>
+        <a href="/team">Команда</a>
     </div>
     <div class="main-container">
         <h1 class="project-title">{{page.title}}</h1>
@@ -50,31 +50,32 @@
             </div>
             <div class="project-sidebar">
                 <div class="sidebar-content">
-                    <img src="/assets/images{{page.id}}/thumbnail.png">
+                    {% assign id_len = page.id | size %}
+                    <img src="/assets/images{{page.id | slice: 3, id_len}}/thumbnail.png">
                     <div class="project-description">{{page.description}}</div>
                     <div class="project-summary">
                         <div class="summary-tag">
-                            <div class="key">Languages:</div>
+                            <div class="key">Языки:</div>
                             <div class="value">{{page.languages}}</div>
                         </div>
                         <div class="summary-tag">
-                            <div class="key">Players:</div>
+                            <div class="key">Игроки:</div>
                             <div class="value">{{page.players}}</div>
                         </div>
                         <div class="summary-tag">
-                            <div class="key">Minecraft Version:</div>
+                            <div class="key">Версия Minecraft:</div>
                             <div class="value">{{page.mc_version}}</div>
                         </div>
                         <div class="summary-tag">
-                            <div class="key">Mods required:</div>
+                            <div class="key">Необходимые моды:</div>
                             <div class="value">{{page.mods}}</div>
                         </div>
                         <div class="summary-tag">
-                            <div class="key">Release date:</div>
-                            <div class="value">{{page.release_date | date: "%B %d %Y"}}</div>
+                            <div class="key">Дата релиза:</div>
+                            <div class="value">{{page.release_date | date: "%d.%m.%Y"}}</div>
                         </div>
                         <div class="summary-tag">
-                            <div class="key">Author(s):</div>
+                            <div class="key">Автор(ы):</div>
                             <div class="value"><a href="/team/">{{page.authors}}</a></div>
                         </div>
                     </div>
@@ -85,7 +86,7 @@
                         {% endfor %}
                     </div>
                 </div>
-                <button class="accent">Download</button>
+                <a href="{{page.download_url}}" target="_blank"><button class="accent">Скачать</button></a>
             </div>
         </div>
     </div>

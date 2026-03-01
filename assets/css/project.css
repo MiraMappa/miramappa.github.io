@@ -150,6 +150,10 @@
     border-radius: var(--border-radius);
     padding: 20px 40px 60px 40px;
     box-sizing: border-box;
+    img {
+        width: 100%;
+        border-radius: var(--border-radius);
+    }
     .note {
         border: 1px solid var(--outline-color);
         border-radius: var(--border-radius);

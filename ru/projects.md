@@ -11,7 +11,8 @@ additional_css: projects
   {% for project in projects_list %}
     <a href="{{project.id}}">
     <div class="project">
-      <img src="/assets/images{{project.id}}/thumbnail.png" alt="{{project.title}}">
+      {% assign id_len = project.id | size %}
+      <img src="/assets/images{{project.id | slice: 3, id_len}}/thumbnail.png" alt="{{project.title}}">
       <div class="project-text">
         <h3>{{project.title}}</h3>
         <div class="project-tags">

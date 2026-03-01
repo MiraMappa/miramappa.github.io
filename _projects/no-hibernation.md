@@ -2,6 +2,7 @@
 page_name: no-hibernation
 title: No Hibernation
 description: Survive until sunrise in a house and defend from werewolves
+authors: XeKyT, Balcom
 download_url: https://www.planetminecraft.com/project/no-hibernation/
 year: 2023
 languages: English
@@ -40,7 +41,7 @@ This project has been discontinued and will remain in Beta state. However, the l
 {: .align-center}
 
 <div class="img-block left" markdown="1">
-![Test](/assets/images/projects/no-hibernation/description/1.png)
+![No Hibernation Description](/assets/images/projects/no-hibernation/description/1.png)
 
 No Hibernation is a horror map based on trial and error   gameplay. Survive until dawn and don't let anything in!
 </div>
@@ -51,14 +52,14 @@ No Hibernation is a horror map based on trial and error   gameplay. Survive unti
 <div class="img-block right" markdown="1">
 Ranks and difficulty modifiers will make you keep playing!
 
-![Test](/assets/images/projects/no-hibernation/description/2.png)
+![No Hibernation Description](/assets/images/projects/no-hibernation/description/2.png)
 </div>
 
 # Challenging Difficulty
 {: .align-center}
 
 <div class="img-block left" markdown="1">
-![Test](/assets/images/projects/no-hibernation/description/3.png)
+![No Hibernation Description](/assets/images/projects/no-hibernation/description/3.png)
 
 Play on Easy, Normal or Hard difficulty depending on your experience and try DEATH WISH of you're brave enough!
 </div>
@@ -70,14 +71,14 @@ Play on Easy, Normal or Hard difficulty depending on your experience and try DEA
 Play No Hibernation alone or with up to 3 people together!
 <small>(More players is possible but will make the gameplay too boring)</small>
 
-![Test](/assets/images/projects/no-hibernation/description/4.png)
+![No Hibernation Description](/assets/images/projects/no-hibernation/description/4.png)
 </div>
 
 # Ranks
 {: .align-center}
 
 <div class="img-block left" markdown="1">
-![Test](/assets/images/projects/no-hibernation/description/5.png)
+![No Hibernation Description](/assets/images/projects/no-hibernation/description/5.png)
 
 Try your best and get the best rank on the map!
 </div>

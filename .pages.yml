@@ -127,7 +127,7 @@ content:
         default: project_ru
       - name: body
         label: Описание
-        type: rich-text
+        type: text
 
   - name: members
     label: Team Members

@@ -14,11 +14,11 @@ update_date: 2025-12-02
 project_tags: Хоррор, Кооп, PvP, Прятки
 media:
   - _block: asset
-    type: image
-    src: /assets/images/projects/yoodexys-mod/screenshots/1.webp
+    type: video
+    src: https://youtube.com/embed/9E2gNwCOiZw
   - _block: asset
     type: image
-    src: /assets/images/projects/yoodexys-mod/screenshots/2.webp
+    src: /assets/images/projects/yoodexys-mod/screenshots/1.webp
   - _block: asset
     type: image
     src: /assets/images/projects/yoodexys-mod/screenshots/3.webp
@@ -33,4 +33,4 @@ media:
     src: /assets/images/projects/yoodexys-mod/screenshots/6.webp
 layout: project_ru
 ---
-![Yoodexy's Mod Description](/assets/images/projects/yoodexys-mod/description.png)
+![Описание Yoodexy's Mod](/assets/images/projects/yoodexys-mod/description_ru.png)

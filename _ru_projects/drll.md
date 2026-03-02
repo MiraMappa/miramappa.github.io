@@ -27,5 +27,5 @@ media:
     src: /assets/images/projects/drll/screenshots/3.webp
 layout: project_ru
 ---
-![DELTARUNE: Lightners Live Description](/assets/images/projects/drll/description1.png)
-![DELTARUNE: Lightners Live Description](/assets/images/projects/drll/description2.png)
+![Описание DELTARUNE: Lightners Live](/assets/images/projects/drll/description1_ru.png)
+![Описание DELTARUNE: Lightners Live](/assets/images/projects/drll/description2_ru.png)

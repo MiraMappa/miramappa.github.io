@@ -33,4 +33,4 @@ media:
     src: /assets/images/projects/fnaf4/screenshots/5.webp
 layout: project_ru
 ---
-![Five Nights at Freddy's 4 Description](/assets/images/projects/fnaf4/description.png)
+![Описание Five Nights at Freddy's 4](/assets/images/projects/fnaf4/description_ru.png)

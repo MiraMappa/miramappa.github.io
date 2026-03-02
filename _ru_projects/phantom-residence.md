@@ -18,7 +18,7 @@ media:
     src: /assets/images/projects/phantom-residence/thumbnail.png
   - _block: asset
     type: image
-    src: /assets/images/projects/phantom-residence/backcover.png
+    src: /assets/images/projects/phantom-residence/backcover_ru.png
 layout: project_ru
 ---
-![Description](/assets/images/projects/phantom-residence/description.png)
+![Описание Phantom Residence](/assets/images/projects/phantom-residence/description_ru.png)

@@ -33,4 +33,4 @@ media:
     src: /assets/images/projects/detective-stories/screenshots/5.webp
 layout: project_ru
 ---
-![Описание Detective Stories](/assets/images/projects/detective-stories/description.png)
+![Описание Detective Stories](/assets/images/projects/detective-stories/description_ru.png)

@@ -15,22 +15,22 @@ project_tags: Хоррор, Головоломка
 media:
   - _block: asset
     type: image
-    src: /assets/images/projects/metel/screenshots/1.webp
+    src: /assets/images/projects/metel/screenshots/1_ru.png
   - _block: asset
     type: image
-    src: /assets/images/projects/metel/screenshots/2.webp
+    src: /assets/images/projects/metel/screenshots/2_ru.png
   - _block: asset
     type: image
-    src: /assets/images/projects/metel/screenshots/3.webp
+    src: /assets/images/projects/metel/screenshots/3_ru.png
   - _block: asset
     type: image
-    src: /assets/images/projects/metel/screenshots/4.webp
+    src: /assets/images/projects/metel/screenshots/4_ru.png
   - _block: asset
     type: image
-    src: /assets/images/projects/metel/screenshots/5.webp
+    src: /assets/images/projects/metel/screenshots/5_ru.png
   - _block: asset
     type: image
-    src: /assets/images/projects/metel/screenshots/6.webp
+    src: /assets/images/projects/metel/screenshots/6_ru.png
 layout: project_ru
 ---
-![Metel - Horror Escape Description](/assets/images/projects/metel/description.png)
+![Описание Metel - Horror Escape](/assets/images/projects/metel/description_ru.png)

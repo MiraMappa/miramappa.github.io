@@ -30,4 +30,4 @@ media:
     src: /assets/images/projects/fnaf3/screenshots/4.webp
 layout: project_ru
 ---
-![Five Nights at Freddy's 3 Description](/assets/images/projects/fnaf3/description.png)
+![Описание Five Nights at Freddy's 3](/assets/images/projects/fnaf3/description_ru.png)

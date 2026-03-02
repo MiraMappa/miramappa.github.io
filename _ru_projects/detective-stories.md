@@ -1,7 +1,7 @@
 ---
 page_name: detective-stories
 title: Detective Stories
-description: ОПИСАНИЕ
+description: 1 глава, которая происходит во время снежной бури в странном кафе
 authors: VladislavvC
 download_url: https://www.planetminecraft.com/project/detective-stories-chapter-1-case-cafe/
 year: 2025

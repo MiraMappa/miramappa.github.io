@@ -1,7 +1,7 @@
 ---
 page_name: yoodexys-mod
 title: Yoodexy's Mod
-description: DESCRIPTION
+description: Asymmetrical horror with escape and hide-and-seek elements
 authors: VladislavvC
 download_url: https://www.planetminecraft.com/project/yoodexy-s-mod/
 year: 2025

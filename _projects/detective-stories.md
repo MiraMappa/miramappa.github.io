@@ -1,7 +1,7 @@
 ---
 page_name: detective-stories
 title: Detective Stories
-description: DESCRIPTION
+description: Chapter 1 set during a snowstorm in a strange cafe
 authors: VladislavvC
 download_url: https://www.planetminecraft.com/project/detective-stories-chapter-1-case-cafe/
 year: 2025

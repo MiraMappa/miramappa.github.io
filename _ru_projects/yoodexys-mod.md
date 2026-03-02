@@ -1,7 +1,7 @@
 ---
 page_name: yoodexys-mod
 title: Yoodexy's Mod
-description: ОПИСАНИЕ
+description: Асиметричный хоррор с элементами побега и пряток
 authors: VladislavvC
 download_url: https://www.planetminecraft.com/project/yoodexy-s-mod/
 year: 2025

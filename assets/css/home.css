@@ -149,10 +149,21 @@
             font-size: 64px;
         }
     }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+        button {
+            width: 100%;
+            margin: 0;
+        }
+    }
     .content-creators-list {
         height: auto;
         padding: 10px 60px;
         flex-wrap: wrap;
+    }
+    .commissions {
+        width: 100%;
     }
     .commissions-header {
         flex-direction: column;
@@ -165,8 +176,15 @@
     .commissions-grid {
         margin-top: 80px;
         margin-bottom: 0;
-        width: 400px;
-        grid-template-columns: 400px;
+        width: 100%;
+        grid-template-columns: calc(100% - 20px);
+        justify-content: center;
         grid-template-rows: 300px 300px;
+    }
+    .commission-panel {
+        width: 100%;
+        h1 {
+            font-size: 24px;
+        }
     }
 }

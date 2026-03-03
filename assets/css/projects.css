@@ -85,7 +85,10 @@
 
 @media (max-width: 1300px) {
     .header {
-        padding: 0 calc(50% - 405px);;
+        padding: 0 calc(50% - 405px);
+        h1 {
+            font-size: 64px;
+        }
     }
     .projects-grid {
         grid-template-columns: repeat(2, 400px);
@@ -98,11 +101,19 @@
         width: 80%;
         margin: 70px auto;
         h1 {
-            font-size: 64px;
+            font-size: 48px;
         }
     }
     .projects-grid {
-        grid-template-columns: 400px;
+        grid-template-columns: calc(100% - 20px);
+        justify-content: center;
         padding: 0 calc(50% - 200px);
+    }
+    .project {
+        width: 100%;
+        height: auto;
+        img {
+            height: auto;
+        }
     }
 }

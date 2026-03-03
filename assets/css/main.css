@@ -19,7 +19,9 @@
   background: #ffffff;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 
 body {
     margin: 0;
@@ -276,6 +278,7 @@ footer {
         padding: 30px calc(50% - 200px);
     }
     .footer-row {
-        margin: 30px 0;
+        margin: 30px auto;
+        width: calc(100% - 40px);
     }
 }
